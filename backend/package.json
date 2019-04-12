@@ -1,0 +1,26 @@
+{
+  "name": "next-hapi-mongodb-backend",
+  "version": "1.0.0",
+  "description": "The backend of this boilerplate, that includes hapi.js and a connection to a mongoDB instance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "keywords": [
+    "next",
+    "hapi",
+    "mongodb",
+    "fullstack",
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Dennis Schoepf",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^18.0.1",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
